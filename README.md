@@ -41,15 +41,6 @@ Let's try one more, 4417 1234 5678 9112:
 3 69 % 10 != 0
 This card is not valid.
 
-B) Determine card type based on:
-+============+=============+===============+
-| Card Type | Begins With | Number Length |
-+============+=============+===============+
-| AMEX      | 34 or 37    |      15       |
-+------------+-------------+---------------+
-| Discover  | 6011        |     16        |
-+------------+-------------+---------------+
-| MasterCard | 51-55      |     16        |
-+------------+-------------+---------------+
-| Visa       |  4         |     13 or 16  |
-+------------+-------------+---------------+
+B) Determine card type based on below conditions present in cardTypeFormula.js file:
+1. Begins with
+2. Length of the credit card number
