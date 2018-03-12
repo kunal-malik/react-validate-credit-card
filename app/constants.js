@@ -7,7 +7,7 @@ export default {
     SUCCESS: 'success',
     INPUT_TEXT_PLACEHOLDER: 'Enter a numeric credit card number',
     VALIDATE: 'Validate',
-    VALIDATE_ALL: 'Validate all credit cards from input file',
+    VALIDATE_ALL: 'Validate all credit cards',
     EVEN: 'even',
     ODD: 'odd'
 }
